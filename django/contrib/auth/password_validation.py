@@ -115,11 +115,10 @@ class MinimumLengthValidator:
     def get_error_message(self):
         return (
             ngettext(
-                "This password is too short. It must contain at least %d character.",
-                "This password is too short. It must contain at least %d characters.",
+                "This password is too short. It must contain at least %(min_length)d character.",
+                "This password is too short. It must contain at least %(min_length)d characters.",
                 self.min_length,
-            )
-            % self.min_length
+            ) % {"min_length": self.min_length}
         )
 
     def get_help_text(self):

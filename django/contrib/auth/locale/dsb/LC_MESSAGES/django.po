@@ -264,17 +264,17 @@ msgid "users"
 msgstr "wužywarje"
 
 #, python-format
-msgid "This password is too short. It must contain at least %d character."
+msgid "This password is too short. It must contain at least %(min_length)d character."
 msgid_plural ""
-"This password is too short. It must contain at least %d characters."
+"This password is too short. It must contain at least %(min_length)d characters."
 msgstr[0] ""
-"Toś to gronidło jo pśekrotke. Musy nanejmjenjej %d znamuško wopśimowaś."
+"Toś to gronidło jo pśekrotke. Musy nanejmjenjej %(min_length)d znamuško wopśimowaś."
 msgstr[1] ""
-"Toś to gronidło jo pśekrotke. Musy nanejmjenjej %d znamušce wopśimowaś."
+"Toś to gronidło jo pśekrotke. Musy nanejmjenjej %(min_length)d znamušce wopśimowaś."
 msgstr[2] ""
-"Toś to gronidło jo pśekrotke. Musy nanejmjenjej %d znamuška wopśimowaś."
+"Toś to gronidło jo pśekrotke. Musy nanejmjenjej %(min_length)d znamuška wopśimowaś."
 msgstr[3] ""
-"Toś to gronidło jo pśekrotke. Musy nanejmjenjej %d znamuškow wopśimowaś."
+"Toś to gronidło jo pśekrotke. Musy nanejmjenjej %(min_length)d znamuškow wopśimowaś."
 
 #, python-format
 msgid "Your password must contain at least %(min_length)d character."

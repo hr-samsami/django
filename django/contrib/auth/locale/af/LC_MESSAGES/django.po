@@ -262,12 +262,12 @@ msgid "users"
 msgstr "gebruikers"
 
 #, python-format
-msgid "This password is too short. It must contain at least %d character."
+msgid "This password is too short. It must contain at least %(min_length)d character."
 msgid_plural ""
-"This password is too short. It must contain at least %d characters."
-msgstr[0] "Dié wagwoord is te kort. Dit moet ten minste %d karakter lank wees."
+"This password is too short. It must contain at least %(min_length)d characters."
+msgstr[0] "Dié wagwoord is te kort. Dit moet ten minste %(min_length)d karakter lank wees."
 msgstr[1] ""
-"Dié wagwoord is te kort. Dit moet ten minste %d karakters lank wees."
+"Dié wagwoord is te kort. Dit moet ten minste %(min_length)d karakters lank wees."
 
 #, python-format
 msgid "Your password must contain at least %(min_length)d character."

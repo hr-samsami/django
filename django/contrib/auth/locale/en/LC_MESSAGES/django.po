@@ -319,9 +319,9 @@ msgstr ""
 
 #: contrib/auth/password_validation.py:113
 #, python-format
-msgid "This password is too short. It must contain at least %d character."
+msgid "This password is too short. It must contain at least %(min_length)d character."
 msgid_plural ""
-"This password is too short. It must contain at least %d characters."
+"This password is too short. It must contain at least %(min_length)d characters."
 msgstr[0] ""
 msgstr[1] ""
 

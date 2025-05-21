@@ -260,11 +260,11 @@ msgid "users"
 msgstr "felhasználók"
 
 #, python-format
-msgid "This password is too short. It must contain at least %d character."
+msgid "This password is too short. It must contain at least %(min_length)d character."
 msgid_plural ""
-"This password is too short. It must contain at least %d characters."
-msgstr[0] "Ez a jelszó túl rövid. Legalább %d karakter hosszú legyen."
-msgstr[1] "Ez a jelszó túl rövid. Legalább %d karakter hosszú legyen."
+"This password is too short. It must contain at least %(min_length)d characters."
+msgstr[0] "Ez a jelszó túl rövid. Legalább %(min_length)d karakter hosszú legyen."
+msgstr[1] "Ez a jelszó túl rövid. Legalább %(min_length)d karakter hosszú legyen."
 
 #, python-format
 msgid "Your password must contain at least %(min_length)d character."

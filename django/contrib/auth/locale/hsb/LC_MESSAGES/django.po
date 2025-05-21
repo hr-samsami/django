@@ -262,13 +262,13 @@ msgid "users"
 msgstr "wužiwarjo"
 
 #, python-format
-msgid "This password is too short. It must contain at least %d character."
+msgid "This password is too short. It must contain at least %(min_length)d character."
 msgid_plural ""
-"This password is too short. It must contain at least %d characters."
-msgstr[0] "Tute hesło je překrótke. Dyrbi znajmjeńša %d znamješko wobsahować."
-msgstr[1] "Tute hesło je překrótke. Dyrbi znajmjeńša %d znamješce wobsahować."
-msgstr[2] "Tute hesło je překrótke. Dyrbi znajmjeńša %d znamješka wobsahować."
-msgstr[3] "Tute hesło je překrótke. Dyrbi znajmjeńša %d znamješkow wobsahować."
+"This password is too short. It must contain at least %(min_length)d characters."
+msgstr[0] "Tute hesło je překrótke. Dyrbi znajmjeńša %(min_length)d znamješko wobsahować."
+msgstr[1] "Tute hesło je překrótke. Dyrbi znajmjeńša %(min_length)d znamješce wobsahować."
+msgstr[2] "Tute hesło je překrótke. Dyrbi znajmjeńša %(min_length)d znamješka wobsahować."
+msgstr[3] "Tute hesło je překrótke. Dyrbi znajmjeńša %(min_length)d znamješkow wobsahować."
 
 #, python-format
 msgid "Your password must contain at least %(min_length)d character."

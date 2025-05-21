@@ -264,12 +264,12 @@ msgid "users"
 msgstr "корисници"
 
 #, python-format
-msgid "This password is too short. It must contain at least %d character."
+msgid "This password is too short. It must contain at least %(min_length)d character."
 msgid_plural ""
-"This password is too short. It must contain at least %d characters."
-msgstr[0] "Ова лозинка је прекратка. Мора да садржи најмање %d знак."
-msgstr[1] "Ова лозинка је прекратка. Мора да садржи најмање %d знака."
-msgstr[2] "Ова лозинка је прекратка. Мора да садржи најмање %d знакова."
+"This password is too short. It must contain at least %(min_length)d characters."
+msgstr[0] "Ова лозинка је прекратка. Мора да садржи најмање %(min_length)d знак."
+msgstr[1] "Ова лозинка је прекратка. Мора да садржи најмање %(min_length)d знака."
+msgstr[2] "Ова лозинка је прекратка. Мора да садржи најмање %(min_length)d знакова."
 
 #, python-format
 msgid "Your password must contain at least %(min_length)d character."

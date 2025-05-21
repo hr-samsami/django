@@ -323,12 +323,12 @@ msgstr "korisnici"
 
 #: contrib/auth/password_validation.py:113
 #, python-format
-msgid "This password is too short. It must contain at least %d character."
+msgid "This password is too short. It must contain at least %(min_length)d character."
 msgid_plural ""
-"This password is too short. It must contain at least %d characters."
-msgstr[0] "Ova lozinka je prekratka. Mora da sadrži najmanje %d znak."
-msgstr[1] "Ova lozinka je prekratka. Mora da sadrži najmanje %d znaka."
-msgstr[2] "Ova lozinka je prekratka. Mora da sadrži najmanje %d znakova."
+"This password is too short. It must contain at least %(min_length)d characters."
+msgstr[0] "Ova lozinka je prekratka. Mora da sadrži najmanje %(min_length)d znak."
+msgstr[1] "Ova lozinka je prekratka. Mora da sadrži najmanje %(min_length)d znaka."
+msgstr[2] "Ova lozinka je prekratka. Mora da sadrži najmanje %(min_length)d znakova."
 
 #: contrib/auth/password_validation.py:122
 #, python-format

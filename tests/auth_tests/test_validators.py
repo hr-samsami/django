@@ -125,7 +125,7 @@ class PasswordValidationTest(SimpleTestCase):
 class MinimumLengthValidatorTest(SimpleTestCase):
     def test_validate(self):
         expected_error = (
-            "This password is too short. It must contain at least %d characters."
+            "This password is too short. It must contain at least %(min_length)d characters."
         )
         self.assertIsNone(MinimumLengthValidator().validate("12345678"))
         self.assertIsNone(MinimumLengthValidator(min_length=3).validate("123"))
@@ -155,8 +155,8 @@ class MinimumLengthValidatorTest(SimpleTestCase):
         with self.subTest("get_error_message"):
             MinimumLengthValidator().get_error_message()
             mock_ngettext.assert_called_with(
-                "This password is too short. It must contain at least %d character.",
-                "This password is too short. It must contain at least %d characters.",
+                "This password is too short. It must contain at least %(min_length)d character.",
+                "This password is too short. It must contain at least %(min_length)d characters.",
                 8,
             )
         mock_ngettext.reset()
